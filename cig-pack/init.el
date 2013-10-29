@@ -5,3 +5,6 @@
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
+
+;; Load custom settings
+(live-load-config-file "cig-conf.el")
