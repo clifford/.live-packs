@@ -4,4 +4,4 @@
 (live-append-packs '(~/.live-packs/cig-pack))
 
 ;; make emacs-live use the dev packs (still in testing)
-(live-use-dev-packs)
+;;(live-use-dev-packs)
