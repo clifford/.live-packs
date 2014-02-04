@@ -1,0 +1,5 @@
+solarized-pack is a git submodule of my repo .live-packs which in turn has a git submodule referring to the original repo git@github.com:bbatsov/solarized-emacs.git in the directory vendor/submodules.
+
+therefore to update these run:
+
+git submodule update --init --recursive

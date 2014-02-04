@@ -1,0 +1,3 @@
+[submodule "solarized-el-pack"]
+	path = solarized-el-pack
+	url = git@github.com:siancu/solarized-pack.git
