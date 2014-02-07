@@ -1,8 +1,5 @@
-(live-use-packs '(live/foundation-pack
-                 ;live/colour-pack ;disabled for solarized to work properly
-                 live/clojure-pack
-                 live/lang-pack
-                 live/power-pack))
+;; ignore colour-pack but still load all other default live packs
+(live-ignore-packs '(stable/colour-pack))
 
 (live-add-packs '(~/.live-packs/solarized-pack))
 
@@ -10,4 +7,4 @@
 (live-append-packs '(~/.live-packs/cig-pack))
 
 ;; make emacs-live use the dev packs (still in testing)
-(live-use-dev-packs)
+;;(live-use-dev-packs)
