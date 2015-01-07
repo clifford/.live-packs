@@ -18,7 +18,7 @@
 ;; Custom font, trick from https://github.com/overtone/emacs-live/issues/25
 
 ;; (add-to-list 'default-frame-alist '(font . "Inconsolata 12"))
-(add-to-list 'default-frame-alist '(font . "Anonymous Pro 12"))
+(add-to-list 'default-frame-alist '(font . "Anonymous Pro 11"))
 ;;(add-to-list 'default-frame-alist '(font . "PragmataPro 10"))
 ;;(add-to-list 'default-frame-alist '(font . "Consolas 11"))
 
