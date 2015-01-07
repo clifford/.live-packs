@@ -17,7 +17,9 @@
 
 ;; Custom font, trick from https://github.com/overtone/emacs-live/issues/25
 
-(add-to-list 'default-frame-alist '(font . "PragmataPro 10"))
+(add-to-list 'default-frame-alist '(font . "Inconsolata 12"))
+;;(add-to-list 'default-frame-alist '(font . "PragmataPro 10"))
+;;(add-to-list 'default-frame-alist '(font . "Consolas 11"))
 
 ;; enable strict mode for smartparens (ala paredit)
 ;;(smartparens-strict-mode t)
